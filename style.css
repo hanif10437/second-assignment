@@ -1,10 +1,11 @@
 * {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  
+
   margin: 0;
   padding: 0;
 }
+
 /*first part*/
 .head-part {
   width: 80%;
@@ -12,7 +13,10 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 10%;
+  margin-top: 50px;
+ 
 }
+
 .web-name {
   font-size: 15px;
   font-weight: 200;
@@ -30,73 +34,250 @@
   width: 80%;
   display: flex;
   margin-left: 10%;
+  
 }
 .main-text {
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 25px;
   color: rgb(28, 28, 28);
+  padding-bottom: 50px;
+}
+.main-image:hover{
+  transform: scale(1.1);
+  transition: 1s ease-in-out ;
+
+}
+
+#text-bg{
+  margin-left:400px;
+  font-size: 20px;
+  font-weight: 700;
+
 }
 .main-text p {
   font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
-.main-text p a {
+
+.btn a {
+  font-size: 12px;
   text-decoration: none;
-  border: 1px solid rgb(255, 0, 111);
-  background-color: rgb(255, 0, 76);
-  border-radius: 5px;
+  padding: 9px 21px;
+  background: rgb(181 0 0 / 97%);
+
+  border-radius: 20px;
+  color: whitesmoke;
 }
+
+.end-btn {
+  width: 160px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  padding: 12px 48px 12px 24px;
+  border-radius: 15px;
+  color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+
 /*main part end*/
 
 /*column  part start*/
-.products{
-    padding-top: 120px;
+.products {
+  padding-top: 120px;
 }
-#head-text{
-    width: 40%;
-    padding-left: 39%;
-    width: 70%;
-  
+#head-text {
+  width: 40%;
+  padding-left: 39%;
+  width: 70%;
 }
 .products h3 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 .grid-coulmn {
-    padding-top: 50px;
+  padding-top: 50px;
   width: 70%;
-  
-padding-left: 110px;
+  padding-bottom: 20px;
+
+  padding-left: 110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-grid-gap: 45px;
+  grid-gap: 45px;
 }
-.grid{
-    width: 230px;
-    height: 320px;
-    background-color: rgb(237, 237, 237);
-    padding: 2px;
-   
-    border-radius: 10px;
-    
+.grid {
+  width: 230px;
+  height: 320px;
+  background-color: rgb(237, 237, 237);
+  padding: 2px;
+
+  border-radius: 10px;
 }
-.grid span{
-   font-size: 9px;
-  
+.grid span {
+  font-size: 9px;
 }
-#star{
-    color: orange;
-    display: flex;
-    width: 50px;
+#star {
+  color: orange;
+  display: flex;
+  width: 50px;
 }
-.grid p{
-    padding-left: 10px;
-    font-size: 12px;
+.grid p {
+  padding-left: 10px;
+  font-size: 12px;
 }
-#rating{
-    margin: 8px;
-    color: black;
-    font-size: 1.2em;
-}#blank{
-    color: rgb(206, 186, 186);
+#rating {
+  margin: 8px;
+  color: black;
+  font-size: 1.2em;
+}
+#blank {
+  color: rgb(206, 186, 186);
+}
+.btn-2 {
+  margin-left: 800px;
+  padding-top: 25px;
+  font-size: 13px;
+  text-decoration: none;
+  border: none;
+  background-color: white;
+
+  color: rgb(255, 86, 86);
+  width: 100px;
+  cursor: pointer;
+}
+.btn-2:hover{
+  transform: scale(1.1);
+  transition:.2s ease-in-out ;
 }
 
 /*column part end*/
+
+/* customer review */
+.review {
+  width: 80%;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 70px;
+  margin-bottom: 40px;
+}
+.customer-review {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  justify-content: space-between;
+}
+
+#indicate-text {
+  margin-bottom: 50px;
+ color: turquoise;
+
+}
+
+.comment p {
+  font-size: 11px;
+
+  padding-top: 18px;
+  text-align: center;
+}
+.comment h4 {
+  padding-top: 5px;
+  color: rgb(0, 0, 0);
+}
+.comment {
+  background-color: rgb(235, 233, 233);
+  height: 170px;
+  width: 160px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+}
+.end {
+  background-color: black;
+  height: 160px;
+  padding-top: 20px;
+}
+.end h1 {
+  color: white;
+  text-align: center;
+  margin: 5px 5px;
+}
+.end p {
+  color: white;
+  text-align: center;
+  margin: 5px 5px;
+}
+.social {
+  width: 100px;
+  color: white;
+  display: flex;
+  justify-items: normal;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+
+
+/* media quires mobile device */
+@media only screen and (max-width:500px) {
+  .grid-coulmn {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .head-part {
+    display: block;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  #head-text{
+   position: relative;
+   margin-right: 200px;
+  }
+  .web-name {
+    margin-left: 80px;
+    padding-bottom: 20px;
+  }
+  .menu {
+    padding-left: 120px;
+  }
+  .main-part {
+    display: block;
+  }
+  .btn-2 {
+    margin-left: 180px;
+    margin-bottom: 10px;
+  }
+  .customer-review{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 60px;
+  }
+  .comment{
+    margin: 10px;
+  }
+  #indicate-text{
+  margin-left: 70px;
+  }
+  .footer{
+    width:500px;
+  }
+  #text-bg{
+    margin-left: 120px;
+  }
+  .comment{
+    height:155px ;
+  }
+
+}
+/* tablet devies quires */
+@media only screen and (min-width: 900px) and (max-width:500px){
+{grid-template-columns: repeat(2, 1fr);
+}
+.head-part {
+  display: block;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+/* onek cesta koreo 3 ta i responsive korte pari nai session theke o sevabe bujhte parlam na  */
+
+}

@@ -269,15 +269,3 @@
   }
 
 }
-/* tablet devies quires */
-@media only screen and (min-width: 900px) and (max-width:500px){
-{grid-template-columns: repeat(2, 1fr);
-}
-.head-part {
-  display: block;
-  margin-top: 10px;
-  margin-left: 90px;
-}
-/* onek cesta koreo 3 ta i responsive korte pari nai session theke o sevabe bujhte parlam na  */
-
-}
